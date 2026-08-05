@@ -23,4 +23,5 @@ dependencyResolutionManagement {
 }
 
 include(":app")
- 
+
+include(":background-library")
