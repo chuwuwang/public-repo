@@ -22,4 +22,6 @@ dependencyResolutionManagement {
 
 include(":app")
 
+include(":sunmi-rki")
+
 include(":background-library")
