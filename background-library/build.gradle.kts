@@ -25,7 +25,7 @@ afterEvaluate {
                 groupId = "com.github.pub.repo"
                 artifactId = "background-library"
                 version = "1.7.6"
-                artifact(file("libs/noober-background-library-1.7.6.aar"))
+                artifact( file("libs/noober-background-library-1.7.6.aar") )
             }
 
         }
