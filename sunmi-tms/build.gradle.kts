@@ -4,11 +4,8 @@ plugins {
 }
 
 android {
-    namespace = "com.noober.background"
+    namespace = "com.sunmi.tms"
     compileSdk = 37
-    defaultConfig {
-        minSdk = 14
-    }
 }
 
 afterEvaluate {
@@ -19,9 +16,9 @@ afterEvaluate {
 
             create<MavenPublication>("release") {
                 groupId = "com.pub.repo"
-                artifactId = "background-library"
-                version = "1.7.6-ex"
-                artifact( file("libs/noober-background-library-1.7.6.aar") )
+                artifactId = "sunmi-tms"
+                version = "1.0.48-ex"
+                artifact( file("libs/sunmi_customer_api_1.0.48_release.aar") )
             }
 
         }

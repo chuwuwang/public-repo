@@ -4,11 +4,8 @@ plugins {
 }
 
 android {
-    namespace = "com.noober.background"
+    namespace = "com.sunmi.payment"
     compileSdk = 37
-    defaultConfig {
-        minSdk = 14
-    }
 }
 
 afterEvaluate {
@@ -19,9 +16,9 @@ afterEvaluate {
 
             create<MavenPublication>("release") {
                 groupId = "com.pub.repo"
-                artifactId = "background-library"
-                version = "1.7.6-ex"
-                artifact( file("libs/noober-background-library-1.7.6.aar") )
+                artifactId = "sunmi-payment"
+                version = "2.0.34-ex"
+                artifact( file("libs/sunmi-pay-lib-release-2.0.34.aar") )
             }
 
         }

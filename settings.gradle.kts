@@ -23,5 +23,7 @@ dependencyResolutionManagement {
 include(":app")
 
 include(":sunmi-rki")
+include(":sunmi-tms")
+include(":sunmi-payment")
 
 include(":background-library")
