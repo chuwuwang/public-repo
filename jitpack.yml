@@ -1,6 +1,9 @@
 jdk:
   - openjdk17
 
+before_install:
+  - ./gradlew clean
+
 install:
   - ./gradlew :sunmi-rki:publishReleasePublicationToMavenLocal
   - ./gradlew :sunmi-tms:publishReleasePublicationToMavenLocal
