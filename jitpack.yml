@@ -8,4 +8,4 @@ install:
   - ./gradlew :sunmi-rki:publishReleasePublicationToMavenLocal
   - ./gradlew :sunmi-tms:publishReleasePublicationToMavenLocal
   - ./gradlew :sunmi-payment:publishReleasePublicationToMavenLocal
-  - ./gradlew :background-library:publishReleasePublicationToMavenLocal
+  - ./gradlew :noober-background-library:publishReleasePublicationToMavenLocal
