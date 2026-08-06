@@ -12,5 +12,11 @@ Public repository.
 - sunmi customer api sdk
 
 ### sunmi-rki
+- implementation("com.github.chuwuwang.public-repo:sunmi-rki:1.0.2")
 - version 1.0.2
 - sunmi rki sdk
+
+### sunmi-payment
+- implementation("com.github.chuwuwang.public-repo:sunmi-payment:2.0.34")
+- version 2.0.34
+- sunmi payment sdk
