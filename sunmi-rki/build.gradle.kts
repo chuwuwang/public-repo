@@ -17,7 +17,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 groupId = "com.pub.repo"
                 artifactId = "sunmi-rki"
-                version = "1.0.2-ex"
+                version = "1.0.2"
                 artifact( file("libs/sunmi-rki-lib_1.0.2_release.aar") )
             }
 

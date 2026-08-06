@@ -7,5 +7,10 @@ Public repository.
 - https://github.com/JavaNoober/BackgroundLibrary
 
 ### sunmi-tms
+- implementation("com.github.chuwuwang.public-repo:sunmi-tms:1.0.48")
 - version 1.0.48
-- sunmi customer api
+- sunmi customer api sdk
+
+### sunmi-rki
+- version 1.0.2
+- sunmi rki sdk
