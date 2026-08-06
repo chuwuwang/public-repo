@@ -26,4 +26,4 @@ include(":sunmi-rki")
 include(":sunmi-tms")
 include(":sunmi-payment")
 
-include(":background-library")
+include(":noober-background-library")
